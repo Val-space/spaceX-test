@@ -2,6 +2,7 @@
   "name": "launch-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -27,15 +28,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "tlint": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -50,11 +47,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.7.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "gh-pages": "^3.2.3",
+    "mini-css-extract-plugin": "^2.5.2"
   }
 }
