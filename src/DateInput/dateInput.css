@@ -1,0 +1,12 @@
+.date-picker {
+  max-width: fit-content;
+  padding: 20px;
+}
+
+input {
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding-left: 6px;
+  outline: none;
+}

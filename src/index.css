@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Nesathoberyl";
+  src: local("Nesathoberyl"),
+   url("./fonts/Nesathoberyl-BW9j3.ttf") format("truetype");
+  font-weight: bold;
+}
+
