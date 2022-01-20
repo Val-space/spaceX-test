@@ -13,6 +13,7 @@ export const DateInput = ({ handleDateChange, date }) => {
           label="Date desktop"
           inputFormat="MM/dd/yyyy"
           value={date}
+          maxDate={new Date()}
           onChange={(newDate) => handleDateChange(newDate)}
           renderInput={(params) => <TextField {...params} />}
         />

@@ -58,7 +58,10 @@ function App() {
           {`spacex launches ${chosenYear}`}
         </h2>
         <p className="launchQnt">
-          {`${launchesByYear.length} launches`}
+          {launchesByYear.length === 1
+            ? launchesByYear.length + ' launch'
+            : launchesByYear.length + ' launches'
+          }
         </p>
         {loader
           ? <Loader />
