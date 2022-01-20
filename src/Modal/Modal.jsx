@@ -32,7 +32,7 @@ const style = {
   width: 400,
   bgcolor: '#000',
   border: '1px solid #000',
-  borderRadius: '20px',
+  borderRadius: '15px',
   p: 2,
   px: 4,
   pb: 3,

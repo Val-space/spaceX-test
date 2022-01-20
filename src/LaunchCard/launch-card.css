@@ -10,7 +10,7 @@
 .card--front, .card--back {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   position: absolute;
   width: inherit;
   height: inherit;
@@ -21,12 +21,13 @@
   background: blue;
   backface-visibility: hidden;
 	transition: all 0.85s;
-	overflow: auto;
+	overflow: scroll;
 }
 
 .card--front {
   transform: rotatey(0d);
   background: linear-gradient(to left, #6038ff, #2300b0);
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
