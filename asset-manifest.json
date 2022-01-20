@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.1ef2a167.css",
+    "main.css": "./static/css/main.37dcfe4e.css",
     "main.js": "./static/js/main.69787669.js",
     "static/media/Nesathoberyl-BW9j3.ttf": "./static/media/Nesathoberyl-BW9j3.b1cb0a2c47bd844af4c2.ttf",
     "index.html": "./index.html",
-    "main.1ef2a167.css.map": "./static/css/main.1ef2a167.css.map",
+    "main.37dcfe4e.css.map": "./static/css/main.37dcfe4e.css.map",
     "main.69787669.js.map": "./static/js/main.69787669.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef2a167.css",
+    "static/css/main.37dcfe4e.css",
     "static/js/main.69787669.js"
   ]
 }
